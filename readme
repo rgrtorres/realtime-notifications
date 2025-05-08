@@ -1,0 +1,39 @@
+🔔 Real-Time Notification
+Este projeto é um sistema simples de notificações em tempo real utilizando Node.js, Express e Socket.IO. Ele permite que clientes conectados recebam notificações instantâneas sem a necessidade de recarregar a página.
+Rocketseat
+
+🚀 Tecnologias Utilizadas
+Node.js
+Express
+Socket.IO
+
+Bootstrap 5
+
+📦 Instalação
+Clone o repositório:
+git clone https://github.com/rgrtorres/realtime-notifications.git
+cd realtime-notifications
+
+Instale as dependências:
+npm install
+
+Inicie o servidor:
+node server.js
+
+Acesse a aplicação no navegador:
+http://localhost:3000
+
+
+💡 Funcionalidades
+Conexão e desconexão de clientes.
+Envio de notificações em tempo real para todos os clientes conectados.
+Interface simples e intuitiva utilizando Bootstrap.
+
+🖥️ Estrutura do Projeto
+realtime-notifications/
+├── public/
+│   ├── index.html
+│   └── script.js
+├── server.js
+├── package.json
+└── README.md
